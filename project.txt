@@ -1,0 +1,41 @@
+<html>
+<body>
+<h1>Intrinsic Functions </h1>
+<script>
+const date=new Date('November 10, 2022 01:10:20');
+document.write("<h4>Date functions</h4>Date is : "+date);
+document.write("<br>1) Day of Month is :"+date.getDate());
+document.write("<br>2) Day of week is :"+date.getDay());
+document.write("<br>3) Year in 4 digit is :"+date.getFullYear());
+document.write("<br>4) hour from 0 to 23 is :"+date.getHours());
+document.write("<br>5) miliseconds from 0 to 999 is :"+date.getMilliseconds());
+document.write("<br>6) Minutes between 0-59 are:"+date.getMinutes());
+document.write("<br>7) Month between 0-11 are:"+date.getMonth());
+document.write("<br>8) Seconds  between 0-59 are:"+date.getSeconds());
+</script>
+<script>
+document.write("<h4>Math functions</h4>");
+document.write("<br>random : "+Math.random());
+document.write("<br>min number of 10,20 : "+Math.min(10,20));
+document.write("<br>max number of 10,20 : "+Math.max(10,20));
+document.write("<br>round number of 24.88 : "+Math.round(24.88));
+document.write("<br>ceil number of 66.40 : "+Math.ceil(66.40));
+document.write("<br>ceil number of 66.80 : "+Math.ceil(66.40));
+document.write("<br>floor number of 66.40 : "+Math.floor(66.40));
+document.write("<br>floor number of 66.80 : "+Math.floor(66.80));
+document.write("<br>sin of 45 : "+Math.sin(45));
+document.write("<br>tan of 45 : "+Math.tan(45));
+document.write("<br>cos of 45 : "+Math.cos(45));
+document.write("<br>exponential of 1 : "+Math.exp(1));
+document.write("<br>cpower of 2^3 : "+Math.pow(2,3));
+document.write("<br>square root of 25 : "+Math.sqrt(25));
+document.write("<h4>Math Constants</h4>");
+document.write("<br>PI value : "+Math.PI);
+document.write("<br>PI value : "+Math.PI);
+document.write("<br>Square root of 2 : "+Math.SQRT2);
+document.write("<br>Square root of 1/2 : "+Math.SQRT1_2);
+document.write("<br>Natural logarithm of 2 : "+Math.LN2);
+
+</script>
+</body>
+</html>
